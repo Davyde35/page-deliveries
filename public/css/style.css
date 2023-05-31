@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+body {
+  background: rgb(255, 255, 255);
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  height: 6rem;
+  background-color: black;
+  color: rgb(182, 182, 182);
+  display: flex;
+  align-items: center;
+}
+.header__text {
+  margin: 10px;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.navbar__bottom {
+  height: 6rem;
+  background-color: rgb(209, 7, 7);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar__text {
+  margin: 5px;
+}
+
+.img__logo {
+  width: 5rem;
+  margin-right: 5px;
+}
+.img__icon {
+  width: 3rem;
+  margin: 3px;
+}
+
+.back__icon-white {
+  padding: 4px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.back__gray {
+  height: 8vh;
+  background-color: rgb(185, 185, 185);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
