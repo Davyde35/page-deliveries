@@ -6,8 +6,13 @@ body {
 
 html {
   font-family: $font-family-main;
-  font-size: $font-size-base;
+  font-size: $font-size-base !important;
   list-style: none;
   text-decoration: none;
 
+}
+
+h3 {
+  display: contents;
+  align-items: center;
 }
